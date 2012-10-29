@@ -20,11 +20,14 @@ package
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			// entry point
-			var myClickButton:MovingButton = new MovingButton();
-			myClickButton.mcClickButton.gotoAndStop("up");
-			addChild (myClickButton);
+			
+			var root:Root = new Root();
+			addChild(root);
+			
+
 			
 		}
+		
 		
 	}
 	
